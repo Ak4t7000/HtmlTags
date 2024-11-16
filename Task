@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All Practice</title>
 </head>
+<style>
+    table,th, td{
+        border: 1px solid black;
+    }
+</style>
 <body>
     
     <!-- Headings....1 - 6 --> 
@@ -16,10 +21,10 @@
     <h6>Heading 6</h6>
 
     <!-- Paragraph  -->
-    <p>This is paragraph <br> This is new line</p>
+    <p>This is paragraph <br> This is new line <span> this is span</span></p>
     
     1.Anchor Tag -->
-    <a href="#">Using anchor tag</a><br><br>
+    <a href="" target="_blank" rel="Piretes-of-caribian">Using anchor tag</a><br><br>
 
     List -->  Unorder list, order List -
     <ul>
@@ -31,10 +36,10 @@
         <li>2</li>
     </ol>
 
-    <img src="./OIP.jpeg" title="piretes of caribean" alt="Image Area">
+    <img src="./OIP.jpeg" loading="lazy" title="piretes of caribean" alt="Image Area">
 
 
-    <table>
+    <table >
         <tr>
             <th>head1</th>
             <th>head2</th>
@@ -47,20 +52,37 @@
             <td>column3</td>
             <td>column4</td>
         </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
     </table><br>
 
-    <label>Label for text</label>
-    <input type="text" name="name" id="name" class="name-class" value="" placeholder="Enter Your name" />
-    <input type="email" name="" id="" class="" value="" placeholder="xyz@gmail.com"/>
-    <input type="checkbox"/>
-    <input type="radio"/>
+    
+    <input type="email" name="" id="" class="" value="" placeholder="xyz@gmail.com"/><br>
+    <label for="rd">Label for cheackbox</label>
+    <input type="checkbox" id="rd"/><br>
+    <input type="radio" />
     <input type="range" min="0" max="100"/>
     <input type="number" step="5"/>
     <input type="color"/>
 
     <form action="" method="post" class="" id="" enctype="" autocomplete="on">
-        <input type="submit" name="submit-sub" value="sub" />
-    </form>
+        <label for="name">Enter Your Name</label>
+        <input type="text" name="name" id="name" class="name-class" value="" placeholder="Enter Your name" /><br>
+        <input type="submit" name="sub" value="submit" />
+    </form><br>
+
+    <!--  Inline Elements-->
+
+    <strong>Strong alternate Bold</strong><br>
+    <b>Bold</b><br>
+    <em>Italic</em><br>
+    <i>Italic</i><br>
+    <q>Wrap text With Double Qutes</q><br>
+    <mark>Highlight Text</mark><br>
 
 </body>
 </html>
